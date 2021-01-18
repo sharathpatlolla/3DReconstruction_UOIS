@@ -21,12 +21,12 @@ Download this dataset and put it in the `datasets` directory
 ### Dependencies:
 [UOIS implementation](https://github.com/chrisdxie/uois) is used for segmentation and [pointSDF reconstruction](https://github.com/mvandermerwe/PointSDF) is used for 3D surface reconstruction
 
-Run `setup.sh` to clone those repositories and put them in `dependencies` directory. Go through both of the repository `README.md` files to add include all the internal dependencies. 
+Run `setup.sh` to clone those repositories and put them in `dependencies` directory. Go through both of the repository `README.md` files to include all the internal dependencies. 
 
 ### Usage:
 Segmented object point clouds can be obtained using the functions in `segmentation_util.py`. Refer to `segmentation_sample_code.ipynb` for examples on using those functions 
 
-Refer to `reconstruction_sample_code.ipynb` for examples on obatining a reconstructed surface from a given point cloud.
+Refer to `reconstruction_sample_code.ipynb` for examples on obtaining a reconstructed surface from a given point cloud.
 
 ### Models:
 The trained weights are taken from the original UOIS implementation paper which can download from [here](https://drive.google.com/uc?export=download&id=1CZgHk5VfhfvUosb8xlgzg7aKhprLpGC3). 
@@ -35,10 +35,9 @@ Download the models and put them in `checkpoints` directory
 
 
 ### To Do:
-There are numerous to do tasks (because of the time constraints :P), I've listed some of them below
+There are numerous to-do tasks (because of the time constraints :P), I've listed some of them below
 1. Rewrite reconstruction in PyTorch or segmentation in TensorFlow and refactor. 
 2. Include sample code for segmentation training on a sample OCID dataset. (This is a small task, refer to [link](https://github.com/chrisdxie/uois/blob/master/train_DSN.ipynb))
-3. 
 
 ### References
  
